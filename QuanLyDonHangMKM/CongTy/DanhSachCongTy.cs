@@ -5,6 +5,7 @@ using System.Windows.Forms;
 
 namespace QuanLyDonHangMKM.CongTy
 {
+    // Tạo Ngày 27/07/2024 - Push lúc 23:17
     public partial class DanhSachCongTy : Form
     {
         private string connectionString = "Data Source=DC-LAPTOP\\SQLEXPRESS;Initial Catalog=QuanLyDonDatHang;Integrated Security=True";
