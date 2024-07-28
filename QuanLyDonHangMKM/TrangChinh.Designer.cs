@@ -33,6 +33,7 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            button4 = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -44,6 +45,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button4);
             groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
@@ -66,9 +68,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(87, 157);
+            button2.Location = new Point(84, 123);
             button2.Name = "button2";
-            button2.Size = new Size(195, 65);
+            button2.Size = new Size(195, 40);
             button2.TabIndex = 1;
             button2.Text = "Danh Sách Công Ty";
             button2.UseVisualStyleBackColor = true;
@@ -76,13 +78,23 @@
             // 
             // button1
             // 
-            button1.Location = new Point(84, 61);
+            button1.Location = new Point(84, 38);
             button1.Name = "button1";
             button1.Size = new Size(195, 65);
             button1.TabIndex = 0;
             button1.Text = "Danh Sách Đơn Hàng";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(84, 187);
+            button4.Name = "button4";
+            button4.Size = new Size(195, 40);
+            button4.TabIndex = 3;
+            button4.Text = "Danh Sách Trại";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // TrangChinh
             // 
@@ -105,5 +117,6 @@
         private Button button3;
         private Button button2;
         private Button button1;
+        private Button button4;
     }
 }
